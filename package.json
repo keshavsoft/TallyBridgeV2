@@ -1,0 +1,18 @@
+{
+  "name": "tallybridgev1",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build1": "pkg app.js",
+    "build": "npx @yao-pkg/pkg app.js --targets node18-win-x64"
+  },
+  "dependencies": {
+    "@yao-pkg/pkg-fetch": "^3.5.32",
+    "fs": "^0.0.1-security"
+  }
+}
