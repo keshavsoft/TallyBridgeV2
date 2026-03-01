@@ -20,7 +20,7 @@ const LocalFuncReadFromTally = async () => {
         });
 
 
-        await fetch("http://localhost:3000/V1/TasksTable/Pipe", {
+        await fetch("http://localhost:3000/V2/LedgerNames/Pipe", {
             method: "POST",
             headers: { "Content-Type": "application/octet-stream" },
                duplex: "half",
